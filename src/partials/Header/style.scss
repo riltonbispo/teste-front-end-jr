@@ -1,0 +1,66 @@
+.home__header {
+  min-width: 80vw;
+}
+
+.info {
+  display: flex;
+  color: #9F9F9F;
+  gap: 7.5rem;
+  padding-block: .5rem;
+  justify-content: center;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: .625rem;
+  }
+
+  &__icon {
+    display: flex;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  &__text {
+    font-family: Poppins;
+    font-size: .75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    & span {
+      color: #f71963;
+      font-weight: 600;
+    }
+  }
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: .5rem 3.75rem;
+  gap: 5rem;
+
+  border-block: 1px solid #f0f0f0;
+  color: #9F9F9F;
+
+  &__logo {
+    flex-shrink: 0;
+  }
+
+  &__input {
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+
+  &__icons {
+    display: flex;
+    gap: 2rem;
+    font-size: 1.5rem;
+
+    & :hover {
+      color: #f71963;
+    }
+  }
+}
