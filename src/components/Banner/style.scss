@@ -1,9 +1,12 @@
 .banner {
   background-image: url('../../assets/images/banner-promocao.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   flex-direction: column;
   position: relative;
+  width: 100vw;
   flex-shrink: 0;
 
   &::before {
