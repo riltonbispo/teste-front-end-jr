@@ -1,11 +1,11 @@
 import {
-  PiDevices,
-  PiStorefront,
-  PiBeerStein,
-  PiHammer,
-  PiHandHeart,
-  PiBarbell,
-  PiHighHeel,
+  PiDevicesLight,
+  PiStorefrontLight,
+  PiBeerSteinLight,
+  PiHammerLight,
+  PiHandHeartLight,
+  PiBarbellLight,
+  PiHighHeelLight,
 } from "react-icons/pi";
 import { useState } from "react";
 
@@ -25,7 +25,7 @@ const ProductType = () => {
           onClick={() => handleItemClick(0)}
         >
           <i>
-            <PiDevices />
+            <PiDevicesLight />
           </i>
           <span>Tecnologia</span>
         </li>
@@ -34,7 +34,7 @@ const ProductType = () => {
           onClick={() => handleItemClick(1)}
         >
           <i>
-            <PiStorefront />
+            <PiStorefrontLight />
           </i>
           <span>Supermercado</span>
         </li>
@@ -43,7 +43,7 @@ const ProductType = () => {
           onClick={() => handleItemClick(2)}
         >
           <i>
-            <PiBeerStein />
+            <PiBeerSteinLight />
           </i>
           <span>Bebidas</span>
         </li>
@@ -52,7 +52,7 @@ const ProductType = () => {
           onClick={() => handleItemClick(3)}
         >
           <i>
-            <PiHammer />
+            <PiHammerLight />
           </i>
           <span>Ferramentas</span>
         </li>
@@ -61,7 +61,7 @@ const ProductType = () => {
           onClick={() => handleItemClick(4)}
         >
           <i>
-            <PiHandHeart />
+            <PiHandHeartLight />
           </i>
           <span>Saúde</span>
         </li>
@@ -70,7 +70,7 @@ const ProductType = () => {
           onClick={() => handleItemClick(5)}
         >
           <i>
-            <PiBarbell />
+            <PiBarbellLight />
           </i>
           <span>Esportes e Fitness</span>
         </li>
@@ -79,7 +79,7 @@ const ProductType = () => {
           onClick={() => handleItemClick(6)}
         >
           <i>
-            <PiHighHeel />
+            <PiHighHeelLight />
           </i>
           <span>Moda</span>
         </li>
