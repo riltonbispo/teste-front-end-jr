@@ -5,6 +5,7 @@ import ProductType from "../components/ProductType/ProductType";
 import Products from "../components/Products/Products";
 import Partners from "../components/Partners/Partners";
 import Separator from "../components/Separator/Separator";
+import Logos from "../components/Logos/Logos";
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
       <Products />
       <Partners />
       <Separator title="Produtos relacionados" subtitle="Ver todos"></Separator>
+      <Partners />
+      <Separator title="Navegue por marcas"></Separator>
+      <Logos></Logos>
     </div>
   );
 }

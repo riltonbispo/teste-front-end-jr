@@ -1,0 +1,35 @@
+.logos {
+  &__container {
+    width: 100%;
+    margin-top: 3.75rem;
+  }
+
+  &__content {
+    padding: 0 4.375rem;
+  }
+}
+
+.logo {
+  &__item {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;
+    width: 11.25rem;
+    height: 11.25rem;
+    padding: 1.25rem;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow:(0px 7px 10px rgba(0, 0, 0, 0.13));
+  }
+
+  &__image {
+    width: 10.75rem;
+    height: 3.9165rem;
+    flex-shrink: 0;
+  }
+}
+
+.swiper-wrapper {
+  display: flex;
+  gap: 1.875rem;
+}
