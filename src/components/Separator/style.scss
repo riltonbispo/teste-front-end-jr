@@ -6,8 +6,13 @@
     margin-top: 2.5rem;
   }
 
+  &__texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   &__title {
-    color: var(--rosa-primario, #F71963);
+    color: var(--rosa-primario, #f71963);
     font-family: Poppins;
     font-size: 30px;
     font-style: normal;
@@ -15,11 +20,20 @@
     line-height: normal;
     text-align: center;
   }
+  &__subtitle {
+    color: var(--Preto, #3f3f40);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
 
   &__row {
     width: 360px;
     height: 1px;
     border: none;
-    background: #DEDEDE;
+    background: #dedede;
   }
 }

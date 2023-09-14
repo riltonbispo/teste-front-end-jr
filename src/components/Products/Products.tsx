@@ -1,4 +1,3 @@
-import Separator from "../Separator/Separator";
 import { getProducts } from "../../services/productsApi";
 import { useEffect, useState } from "react";
 import { ProductType } from "../../types/productType";
@@ -29,7 +28,6 @@ const Products = () => {
   return (
     <div className="products__container">
       <div className="products__content">
-        <Separator title="Produtos relacionados"></Separator>
         <div className="products__swiper">
           <Swiper slidesPerView={4} navigation spaceBetween={30}>
             {products.map((product, index) => (
