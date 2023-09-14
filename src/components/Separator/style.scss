@@ -1,0 +1,24 @@
+.separator {
+  &__container {
+    display: flex;
+    align-items: center;
+    gap: 2.125rem;
+  }
+
+  &__title {
+    color: var(--rosa-primario, #F71963);
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+  }
+
+  &__row {
+    width: 360px;
+    height: 1px;
+    border: none;
+    background: #DEDEDE;
+  }
+}
