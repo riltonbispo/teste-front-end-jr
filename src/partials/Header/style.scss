@@ -1,5 +1,12 @@
-.home__header {
-  min-width: 80vw;
+.header {
+  &__container {
+    width: 100%;
+
+  }
+
+  &__content {
+    padding-inline: 4.375rem;
+  }
 }
 
 .info {

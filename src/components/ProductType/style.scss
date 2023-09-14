@@ -1,12 +1,13 @@
 .type {
   &__container {
     margin-top: 2.125rem;
-    width: 80vw;
+    width: 100%;
   }
 
   &__list {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+      padding-inline: 4.375rem;
     gap: 3.25rem;
     flex-wrap: wrap;
   }

@@ -14,50 +14,52 @@ import {
 
 const Header = () => {
   return (
-    <header className="home__header">
-      <div className="info">
-        <div className="info__item">
-          <i className="info__icon">
-            <PiShieldCheck />
-          </i>
-          <p className="info__text">
-            Compra <span>100% segura</span>
-          </p>
+    <header className="header__container">
+      <div className="header__content">
+        <div className="info">
+          <div className="info__item">
+            <i className="info__icon">
+              <PiShieldCheck />
+            </i>
+            <p className="info__text">
+              Compra <span>100% segura</span>
+            </p>
+          </div>
+
+          <div className="info__item">
+            <i className="info__icon">
+              <PiTruck />
+            </i>
+            <p className="info__text">
+              <span>Frete grátis</span> acima de R$ 200
+            </p>
+          </div>
+
+          <div className="info__item">
+            <i className="info__icon">
+              <PiCreditCard />
+            </i>
+            <p className="info__text">
+              <span>Parcele</span> suas compras
+            </p>
+          </div>
         </div>
 
-        <div className="info__item">
-          <i className="info__icon">
-            <PiTruck />
-          </i>
-          <p className="info__text">
-            <span>Frete grátis</span> acima de R$ 200
-          </p>
+        <div className="search">
+          <img src={vtexLogo} alt="" className="search__logo" />
+          <div className="search__input">
+            <SearchInput />
+          </div>
+          <div className="search__icons">
+            <PiArchiveBox />
+            <PiHeart />
+            <PiUserCircle />
+            <PiShoppingCart />
+          </div>
         </div>
 
-        <div className="info__item">
-          <i className="info__icon">
-            <PiCreditCard />
-          </i>
-          <p className="info__text">
-            <span>Parcele</span> suas compras
-          </p>
-        </div>
+        <Categories />
       </div>
-
-      <div className="search">
-        <img src={vtexLogo} alt="" className="search__logo" />
-        <div className="search__input">
-          <SearchInput />
-        </div>
-        <div className="search__icons">
-          <PiArchiveBox />
-          <PiHeart />
-          <PiUserCircle />
-          <PiShoppingCart />
-        </div>
-      </div>
-
-      <Categories />
     </header>
   );
 };
