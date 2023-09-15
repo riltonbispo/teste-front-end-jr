@@ -1,0 +1,47 @@
+.related-products {
+  &__container {
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  &__content {
+    padding: 0 4.375rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+  }
+
+  &__item {
+    color: #3B3B3B;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 100% */
+    text-transform: uppercase;
+
+    display: flex;
+    padding: 12px 58px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #BDBDBD;
+    cursor: pointer;
+
+
+  &.active {
+    color: var(--rosa-primario, #F71963);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 100% */
+    text-transform: uppercase;
+  }
+  }
+
+}

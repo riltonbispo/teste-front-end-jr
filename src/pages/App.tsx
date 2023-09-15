@@ -6,6 +6,7 @@ import Products from "../components/Products/Products";
 import Partners from "../components/Partners/Partners";
 import Separator from "../components/Separator/Separator";
 import Logos from "../components/Logos/Logos";
+import RelatedProducts from "../components/RelatedProducts/RelatedProducts";
 import Footer from "../partials/Footer/Footer";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Banner></Banner>
       <ProductType />
       <Separator title="Produtos relacionados"></Separator>
+      <RelatedProducts></RelatedProducts>
       <Products />
       <Partners />
       <Separator title="Produtos relacionados" subtitle="Ver todos"></Separator>
