@@ -6,6 +6,7 @@ import Products from "../components/Products/Products";
 import Partners from "../components/Partners/Partners";
 import Separator from "../components/Separator/Separator";
 import Logos from "../components/Logos/Logos";
+import Footer from "../partials/Footer/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Partners />
       <Separator title="Navegue por marcas"></Separator>
       <Logos></Logos>
+      <Footer></Footer>
     </div>
   );
 }
