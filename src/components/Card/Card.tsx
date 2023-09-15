@@ -1,13 +1,31 @@
 import "./style.scss";
 
 import Button from "../Button/Button";
+import { useProduct } from "../../contexts/ProductContext";
 
 type Props = {
   photo: string;
   price: number;
+  productName: string;
+  description: string;
+  onClick: () => void;
 };
 
 const Card = ({ ...props }: Props) => {
+  const pContext = useProduct();
+  const handleClick = () => {
+    pContext?.dispatch({
+      type: "add",
+      payload: {
+        productName: props.productName,
+        descriptionShort: props.description,
+        photo: props.photo,
+        price: props.price,
+      },
+    });
+    props.onClick();
+  };
+
   return (
     <div className="card__container">
       <div className="card__content">
@@ -20,7 +38,7 @@ const Card = ({ ...props }: Props) => {
           <span className="card__price">R$ {props.price}</span>
           <p className="card__details">ou 2x de R$ 49,95 sem juros</p>
           <span className="card__frete">Frete grátis</span>
-          <Button label="Comprar" type="large"></Button>
+          <Button label="Comprar" type="large" onClick={handleClick}></Button>
         </div>
       </div>
     </div>
@@ -28,3 +46,4 @@ const Card = ({ ...props }: Props) => {
 };
 
 export default Card;
+ 
