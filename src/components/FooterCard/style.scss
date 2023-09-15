@@ -1,0 +1,71 @@
+.footercard{
+  &__container {
+    background-color: white;
+    border-radius: 10px;
+    max-width: 380px;
+    max-height: 260px;
+  }
+
+  &__content {
+    padding: 1.875rem 2.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: .75rem;
+  }
+
+  &__title {
+    color: var(--Preto, #3F3F40);
+    font-family: Poppins;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px; /* 144.444% */
+    text-transform: uppercase;
+
+    & span {
+      color: var(--Preto, #3F3F40);
+      font-family: Poppins;
+      font-size: 21px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 26px;
+      text-transform: uppercase;
+    }
+  }
+
+  &__description {
+    color: var(--Preto, #3F3F40);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19px; /* 158.333% */
+  }
+
+  &__input {
+    border-radius: 4px;
+    padding: 12px 24px;
+    border: 1px solid #2A2A2A;
+    background: #FFF;
+    margin-right: 10px;
+  }
+
+  &__button {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 142.857% */
+    text-transform: uppercase;
+
+    border-radius: 4px;
+    padding: 14px 16px;
+    background: var(--rosa-primario, #F71963);
+    border: none;
+  }
+}
