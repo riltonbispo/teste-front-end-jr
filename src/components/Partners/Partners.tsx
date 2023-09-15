@@ -1,5 +1,7 @@
 import "./style.scss";
 
+import Button from "../Button/Button";
+
 const Partners = () => {
   return (
     <div className="partners__container">
@@ -9,14 +11,14 @@ const Partners = () => {
           <p className="partner__description">
             Lorem ipsum dolor sit amet, consectetur
           </p>
-          <button className="partner__button">Confira</button>
+          <Button label="Confira" bold type="medium"></Button>
         </div>
         <div className="partners__item">
           <h4 className="partner__title">Parceiros</h4>
           <p className="partner__description">
             Lorem ipsum dolor sit amet, consectetur
           </p>
-          <button className="partner__button">Confira</button>
+          <Button label="Confira" bold type="medium"></Button>
         </div>
       </div>
     </div>

@@ -23,6 +23,7 @@
   &__content {
     display: flex;
     flex-direction: column;
+    align-items: start;
     width: 50%;
     padding: 50px 70px;
     z-index: 2;
@@ -44,25 +45,6 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-  }
-
-  &__button {
-    width: 14.1875rem;
-      height: 3.75rem;
-      margin-top: 2.1875rem;
-    flex-shrink: 0;
-    cursor: pointer;
-
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 1.125rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-
-    border-radius: .3125rem;
-    border: none;
-    background: #F71963;
   }
 
 }

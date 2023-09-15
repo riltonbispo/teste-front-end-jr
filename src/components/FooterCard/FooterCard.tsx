@@ -1,5 +1,6 @@
-import React from "react";
 import "./style.scss";
+
+import Button from "../Button/Button";
 
 const FooterCard = () => {
   return (
@@ -12,13 +13,13 @@ const FooterCard = () => {
           Excepteur sint occaecat cudatat non ent, sunt in culpa qui officia
           lorem ipsum
         </p>
-        <form action="">
+        <form action="" className="footercard__form">
           <input
             type="email"
             placeholder="SEU E-MAIL"
             className="footercard__input"
           />
-          <button className="footercard__button">ok</button>
+          <Button label="ok" type="small"></Button>
         </form>
       </div>
     </div>

@@ -1,5 +1,7 @@
 import "./style.scss";
 
+import Button from "../Button/Button";
+
 type Props = {
   photo: string;
   price: number;
@@ -18,7 +20,7 @@ const Card = ({ ...props }: Props) => {
           <span className="card__price">R$ {props.price}</span>
           <p className="card__details">ou 2x de R$ 49,95 sem juros</p>
           <span className="card__frete">Frete grátis</span>
-          <button className="card__button">Comprar</button>
+          <Button label="Comprar" type="large"></Button>
         </div>
       </div>
     </div>
