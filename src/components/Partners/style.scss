@@ -16,6 +16,8 @@
     background-image: url('../../assets/images/parceiros.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-size: 100%;
+
 
     display: flex;
     justify-content: end;
@@ -24,9 +26,15 @@
     border-radius: 1.25rem;
     padding: 2.5rem;
 
+    transition: all 0.2s ease-in-out;
 
     width: 574px;
     height: 284px;
+
+    &:hover{
+      background-size: 102%;
+
+    }
 
     &::before {
       content: '';
