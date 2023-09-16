@@ -7,7 +7,7 @@ import "./style.scss";
 
 const Logos = () => {
   return (
-    <div className="logos__container">
+    <aside className="logos__container">
       <div className="logos__content">
         <Swiper
           slidesPerView={6}
@@ -74,7 +74,7 @@ const Logos = () => {
           </SwiperSlide>
         </Swiper>
       </div>
-    </div>
+    </aside>
   );
 };
 

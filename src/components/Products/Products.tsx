@@ -35,7 +35,7 @@ const Products = () => {
   };
 
   return (
-    <div className="products__container">
+    <main className="products__container">
       <div className="products__content">
         <div className="products__swiper">
           <Swiper slidesPerView={4} navigation spaceBetween={30}>
@@ -54,7 +54,7 @@ const Products = () => {
         </div>
         {isModalOpen && <Modal onClose={closeModal}></Modal>}
       </div>
-    </div>
+    </main>
   );
 };
 

@@ -18,7 +18,7 @@ const ProductType = () => {
     setActiveItem(index);
   };
   return (
-    <div className="type__container">
+    <aside className="type__container">
       <ul className="type__list">
         <li
           className={`type__item ${activeItem === 0 && "active"}`}
@@ -84,7 +84,7 @@ const ProductType = () => {
           <span>Moda</span>
         </li>
       </ul>
-    </div>
+    </aside>
   );
 };
 

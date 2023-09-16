@@ -9,7 +9,7 @@ const RelatedProducts = () => {
   };
 
   return (
-    <div className="related-products__container">
+    <nav className="related-products__container">
       <div className="related-products__content">
         <ul className="related-products__list">
           <li
@@ -50,7 +50,7 @@ const RelatedProducts = () => {
           </li>
         </ul>
       </div>
-    </div>
+    </nav>
   );
 };
 

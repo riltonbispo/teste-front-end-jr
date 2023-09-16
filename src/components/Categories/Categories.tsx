@@ -10,7 +10,7 @@ const Categories = () => {
   };
 
   return (
-    <div className="categories">
+    <nav className="categories">
       <ul className="categories__list">
         <li
           className={`categories__item ${activeItem === 0 && "active"}`}
@@ -58,7 +58,7 @@ const Categories = () => {
           Assinatura
         </li>
       </ul>
-    </div>
+    </nav>
   );
 };
 
